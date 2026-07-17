@@ -35,10 +35,7 @@ class _GameWebViewState extends State<GameWebView> {
   void initState() {
     // TODO: implement initState
 
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.landscapeRight,
-    ]);
+
     super.initState();
   }
   // Основные настройки InAppWebView.
